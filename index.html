@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Bella Donna — Salão de beleza premium. Cabelo, unhas, maquiagem e estética em um só lugar. Agende seu horário online." />
+  <meta name="theme-color" content="#140e12" />
+  <title>Bella Donna — Salão de Beleza &amp; Estética</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='%23b76e79'/%3E%3Ctext x='50' y='70' font-size='56' text-anchor='middle' fill='%23fff' font-family='Georgia'%3EB%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <a class="skip-link" href="#inicio">Pular para o conteúdo</a>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-wrap">
+      <a href="#inicio" class="brand" aria-label="Bella Donna — início">
+        <span class="brand-mark" aria-hidden="true">B</span>
+        <span class="brand-text">Bella<em>Donna</em></span>
+      </a>
+
+      <nav class="nav-menu" id="navMenu" aria-label="Navegação principal">
+        <ul>
+          <li><a href="#inicio" class="nav-link active">Início</a></li>
+          <li><a href="#sobre" class="nav-link">Sobre</a></li>
+          <li><a href="#servicos" class="nav-link">Serviços</a></li>
+          <li><a href="#galeria" class="nav-link">Galeria</a></li>
+          <li><a href="#equipe" class="nav-link">Equipe</a></li>
+          <li><a href="#depoimentos" class="nav-link">Depoimentos</a></li>
+          <li><a href="#contato" class="nav-link">Contato</a></li>
+        </ul>
+      </nav>
+
+      <a href="#contato" class="btn btn-primary nav-cta">Agendar horário</a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="navMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="inicio">
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="hero-glow glow-1"></div>
+        <div class="hero-glow glow-2"></div>
+        <svg class="hero-petal petal-a" viewBox="0 0 120 120" aria-hidden="true">
+          <path d="M60 6C86 26 100 46 100 66c0 18-12 30-40 48C32 96 20 84 20 66 20 46 34 26 60 6z" fill="#e08a97" opacity="0.32"/>
+        </svg>
+        <svg class="hero-petal petal-b" viewBox="0 0 120 120" aria-hidden="true">
+          <path d="M60 6C86 26 100 46 100 66c0 18-12 30-40 48C32 96 20 84 20 66 20 46 34 26 60 6z" fill="#d9b56a" opacity="0.26"/>
+        </svg>
+      </div>
+
+      <div class="container hero-grid">
+        <div class="hero-texto">
+          <p class="hero-eyebrow reveal">Salão de beleza &amp; estética</p>
+          <h1 class="hero-title reveal">O seu look mais<br /><em>brilhante começa aqui</em></h1>
+          <p class="hero-sub reveal">
+            Cabelo, unhas, maquiagem e estética em um ambiente acolhedor,
+            com profissionais apaixonados e produtos premium.
+          </p>
+          <div class="hero-actions reveal">
+            <a href="#contato" class="btn btn-primary btn-lg">Agendar horário</a>
+            <a href="#galeria" class="btn btn-ghost-rosa btn-lg">Ver novidades</a>
+          </div>
+          <dl class="hero-stats reveal">
+            <div><dt>+12</dt><dd>anos de experiência</dd></div>
+            <div><dt>+8 mil</dt><dd>clientes atendidas</dd></div>
+            <div><dt>4,9</dt><dd>avaliação média</dd></div>
+          </dl>
+        </div>
+
+        <div class="hero-foto reveal">
+          <div class="foto-aro">
+            <img src="assets/img/hero-salao.jpg" alt="Cliente com cabelos longos recebendo cuidados em cadeira de salão Bella Donna" width="640" height="800" fetchpriority="high" />
+          </div>
+          <div class="hero-chip chip-eval" aria-hidden="true">
+            <strong>4,9</strong>
+            <span>★★★★★<br/><small>2.300+ avaliações</small></span>
+          </div>
+          <div class="hero-chip chip-tempo" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+            <span><strong>12 anos</strong> de cuidado e beleza</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SOBRE ===== -->
+    <section class="section sobre" id="sobre">
+      <div class="container grid-sobre">
+        <div class="sobre-media reveal">
+          <div class="sobre-foto-principal">
+            <img src="assets/img/sobre-blow.jpg" alt="Profissional da Bella Donna secando os cabelos de uma cliente no salão" width="520" height="640" loading="lazy" />
+          </div>
+          <div class="sobre-foto-secundaria">
+            <img src="assets/img/sobre-lavagem.jpg" alt="Cliente relaxando durante a lavagem de cabelo no salão" width="280" height="280" loading="lazy" />
+          </div>
+          <div class="sobre-badge" aria-hidden="true"><strong>12</strong><span>anos de<br/>beleza</span></div>
+        </div>
+
+        <div class="sobre-texto">
+          <p class="eyebrow reveal">Sobre nós</p>
+          <h2 class="section-title reveal">Um espaço feito para<br>o seu bem-estar</h2>
+          <p class="reveal">
+            A Bella Donna nasceu do sonho de transformar o momento da beleza em uma
+            experiência de autocuidado e relaxamento. Nossa equipe é formada por
+            profissionais certificados, sempre atualizados com as tendências e
+            técnicas mais modernas do mercado.
+          </p>
+          <ul class="check-list reveal">
+            <li>Atendimento personalizado com agendamento online</li>
+            <li>Produtos premium, veganos e cruelty-free</li>
+            <li>Ambiente acolhedor pensado no seu conforto</li>
+            <li>Higienização rigorosa de todos os materiais</li>
+          </ul>
+          <a href="#equipe" class="btn btn-outline reveal">Conheça nossa equipe</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SERVIÇOS ===== -->
+    <section class="section servicos" id="servicos">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Nossos serviços</p>
+          <h2 class="section-title">Cuidados completos para você</h2>
+          <p class="section-lead">Escolha o serviço ideal. Todos incluem avaliação gratuita e orientação de manutenção.</p>
+        </div>
+
+        <div class="grid-servicos">
+          <article class="card-servico reveal">
+            <div class="servico-icone" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="7" y="18" width="34" height="22" rx="6"/><path d="M7 26h34"/><path d="M24 18v-8a4 4 0 0 0-4-4"/>
+              </svg>
+            </div>
+            <h3>Cabelo &amp; Visagismo</h3>
+            <p>Cortes, coloração, balayage, hidratação profunda e reconstrução que transformam os seus fios.</p>
+            <p class="card-preco">a partir de <strong>R$ 60</strong></p>
+          </article>
+
+          <article class="card-servico reveal">
+            <div class="servico-icone" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 8h26v6l-7 9v15l-6 4-6-4V23l-7-9z"/><circle cx="25" cy="7" r="3"/>
+              </svg>
+            </div>
+            <h3>Unhas &amp; Nail Design</h3>
+            <p>Manicure, pedicure, alongamento, esmaltação em gel e nail art com alta durabilidade.</p>
+            <p class="card-preco">a partir de <strong>R$ 45</strong></p>
+          </article>
+
+          <article class="card-servico reveal">
+            <div class="servico-icone" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 6c7 6 10 12 10 18 0 9-5 18-10 18S2 33 2 24c0-6 3-12 10-18z" transform="translate(12,0)"/>
+              </svg>
+            </div>
+            <h3>Maquiagem Profissional</h3>
+            <p>Maquiagem social, festa, noivas e automaquiagem, com preparação de pele e sobrancelha.</p>
+            <p class="card-preco">a partir de <strong>R$ 120</strong></p>
+          </article>
+
+          <article class="card-servico reveal">
+            <div class="servico-icone" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M8 42c30-6 34-18 34-18s2 8-6 14c-8 6-28 4-28 4z"/><path d="M28 24l12-12"/>
+              </svg>
+            </div>
+            <h3>Estética &amp; Spá</h3>
+            <p>Limpeza de pele, massagem relaxante, design de sobrancelhas e procedimentos dermoestéticos.</p>
+            <p class="card-preco">a partir de <strong>R$ 90</strong></p>
+          </article>
+
+          <article class="card-servico reveal">
+            <div class="servico-icone" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M8 44h32"/><path d="M24 44V28"/><rect x="15" y="20" width="18" height="9" rx="4"/><path d="M17 20c0-5 3-9 7-9s7 4 7 9"/>
+              </svg>
+            </div>
+            <h3>Noivas &amp; Eventos</h3>
+            <p>Pacotes completos para noivas, madrinhas e eventos: prova, produção no salão ou no local.</p>
+            <p class="card-preco">a partir de <strong>R$ 350</strong></p>
+          </article>
+
+          <article class="card-servico card-destaque reveal">
+            <div class="servico-icone" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M24 6c9 7 9 14 9 20a9 9 0 1 1-18 0c0-6 0-13 9-20z"/><path d="M17 28h14"/>
+              </svg>
+            </div>
+            <h3>Assinatura Bella</h3>
+            <p>Plano mensal com cortes, hidratação, esmaltação e prioridade no agendamento — 20% de desconto.</p>
+            <p class="card-preco">por mês <strong>R$ 199</strong></p>
+            <span class="card-tag">Mais pedido</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== GALERIA ===== -->
+    <section class="section galeria" id="galeria">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Galeria</p>
+          <h2 class="section-title">Resultados que falam por si</h2>
+          <p class="section-lead">Um pouco do que já fizemos por aqui — e do que podemos fazer por você.</p>
+        </div>
+      </div>
+      <div class="galeria-grid">
+        <figure class="galeria-item reveal">
+          <img src="assets/img/g-stylist.jpg" alt="Profissional da Bella Donna fazendo corte e finalização em uma cliente" width="400" height="500" loading="lazy" />
+          <figcaption>Corte &amp; finalização</figcaption>
+        </figure>
+        <figure class="galeria-item reveal">
+          <img src="assets/img/g-blonde.jpg" alt="Cabelo loiro com balayage luminosa" width="400" height="300" loading="lazy" />
+          <figcaption>Balayage luminosa</figcaption>
+        </figure>
+        <figure class="galeria-item reveal">
+          <img src="assets/img/g-makeup.jpg" alt="Pincéis e maquiagem profissional sobre a bancada" width="400" height="300" loading="lazy" />
+          <figcaption>Make de ocasião</figcaption>
+        </figure>
+        <figure class="galeria-item reveal">
+          <img src="assets/img/g-corte-tesoura.jpg" alt="Tesoura em movimento durante um corte em camadas" width="400" height="300" loading="lazy" />
+          <figcaption>Corte em camadas</figcaption>
+        </figure>
+        <figure class="galeria-item reveal">
+          <img src="assets/img/g-nails.jpg" alt="Mãos com esmaltação em gel rosé" width="400" height="300" loading="lazy" />
+          <figcaption>Gel &amp; nail art</figcaption>
+        </figure>
+        <figure class="galeria-item reveal">
+          <img src="assets/img/g-spa.jpg" alt="Tratamento relaxante inspirado em spa no salão" width="400" height="500" loading="lazy" />
+          <figcaption>Spá moment</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ===== EQUIPE ===== -->
+    <section class="section equipe" id="equipe">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Nossa equipe</p>
+          <h2 class="section-title">Profissionais que você vai amar</h2>
+        </div>
+        <div class="grid-equipe">
+          <article class="card-equipe reveal">
+            <div class="avatar" role="img" aria-label="Retrato de Ana Beatriz">
+              <svg viewBox="0 0 200 200" aria-hidden="true">
+                <circle cx="100" cy="100" r="98" fill="#e9c8c0"/>
+                <path d="M70 70c-6 26 10 46 30 46s34-12 34-30-8-34-32-34-26 10-32 18z" fill="#7a4a3f"/>
+                <path d="M66 118a56 56 0 0 0 68 0z" fill="#5d3830"/>
+                <circle cx="100" cy="160" r="24" fill="#b76e79" opacity="0.85"/>
+              </svg>
+            </div>
+            <h3>Ana Beatriz</h3>
+            <p class="cargo">Cabelereira &amp; Visagista</p>
+            <p>Especialista em coloração e reconstrução capilar. 10 anos de salão.</p>
+          </article>
+          <article class="card-equipe reveal">
+            <div class="avatar" role="img" aria-label="Retrato de Carla Mendes">
+              <svg viewBox="0 0 200 200" aria-hidden="true">
+                <circle cx="100" cy="100" r="98" fill="#d9b8c8"/>
+                <circle cx="100" cy="86" r="36" fill="#47292c"/>
+                <path d="M64 88v10a36 36 0 0 0 72 0V88c0-14-16-24-36-24s-36 10-36 24z" fill="#47292c"/>
+                <circle cx="100" cy="158" r="26" fill="#d4a373"/>
+              </svg>
+            </div>
+            <h3>Carla Mendes</h3>
+            <p class="cargo">Nail Designer</p>
+            <p>Alongamento, gel e nail art. Perfeccionista e apaixonada por detalhes.</p>
+          </article>
+          <article class="card-equipe reveal">
+            <div class="avatar" role="img" aria-label="Retrato de Juliana Prado">
+              <svg viewBox="0 0 200 200" aria-hidden="true">
+                <circle cx="100" cy="100" r="98" fill="#c8dabf"/>
+                <circle cx="100" cy="82" r="34" fill="#5a3a2b"/>
+                <path d="M62 100v-6c0-18 16-32 38-32s38 14 38 32v6a40 40 0 0 1-76 0z" fill="#5a3a2b"/>
+                <path d="M60 118a54 54 0 0 0 80 0z" fill="#5a3a2b"/>
+                <circle cx="100" cy="158" r="22" fill="#b76e79" opacity="0.85"/>
+              </svg>
+            </div>
+            <h3>Juliana Prado</h3>
+            <p class="cargo">Maquiadora &amp; Sobrancelhista</p>
+            <p>Maquiagem para todos os momentos e harmonização da sua expressão.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="cta-banner">
+      <div class="container cta-inner">
+        <div class="cta-texto reveal">
+          <h2>Pronta para o seu próximo look?</h2>
+          <p>Espaços limitados por dia para garantir o melhor cuidado. Garanta o seu horário agora.</p>
+        </div>
+        <div class="cta-acao reveal">
+          <a href="#contato" class="btn btn-primary btn-lg">Agendar horário</a>
+          <a href="https://wa.me/5511999999999" target="_blank" rel="noopener" class="btn btn-whats">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.2 14.1c-.3.8-1.6 1.5-2.3 1.6-.5.1-1.1.1-1.8-.1-3.9-1-5.9-4.2-6.1-4.4-.2-.2-1.5-2-1.5-3.7s.9-2.7 1.3-3.1c.3-.3.7-.4 1-.4h.7c.2 0 .5-.1.8.6l.9 2.2c.1.2.1.4-.1.6-.1.2-.2.3-.4.5l-.6.6c-.2.2-.3.4-.1.7.2.3.9 1.4 1.9 2.3 1.3 1.2 2.4 1.5 2.7 1.7.3.2.5.1.7-.1l1-1.2c.3-.3.5-.3.8-.2l2 1c.4.2.7.3.8.5 0 .1 0 .8-.4 1.7z"/></svg>
+            WhatsApp
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== DEPOIMENTOS ===== -->
+    <section class="section depoimentos" id="depoimentos">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Depoimentos</p>
+          <h2 class="section-title">Quem já viveu a experiência</h2>
+        </div>
+        <div class="slider reveal" id="slider" aria-label="Depoimentos de clientes">
+          <div class="slider-track" id="sliderTrack">
+            <figure class="slide">
+              <blockquote>"Meu cabelo nunca esteve tão saudável. A Ana transformou a minha balayage e o atendimento é impecável do início ao fim!"</blockquote>
+              <figcaption><strong>Mariana Souza</strong><span>Cliente desde 2019</span></figcaption>
+            </figure>
+            <figure class="slide">
+              <blockquote>"A assinatura vale muito a pena. Sempre saio renovada e ainda economizo em todos os meus cuidados."</blockquote>
+              <figcaption><strong>Patrícia Almeida</strong><span>Assinante Bella</span></figcaption>
+            </figure>
+            <figure class="slide">
+              <blockquote>"Fiz um pacote para o casamento da minha irmã e ficou tudo maravilhoso. Equipe atenciosa, pontual e super profissional."</blockquote>
+              <figcaption><strong>Fernanda Lima</strong><span>Pacote Noivas</span></figcaption>
+            </figure>
+            <figure class="slide">
+              <blockquote>"Ambiente lindo, produtos de ótima qualidade e atendimento que faz toda a diferença. Virei cliente mensal!"</blockquote>
+              <figcaption><strong>Luana Ribeiro</strong><span>Cliente desde 2021</span></figcaption>
+            </figure>
+          </div>
+          <div class="slider-controls">
+            <button class="slider-btn" id="prevBtn" aria-label="Depoimento anterior" type="button">&#8592;</button>
+            <div class="slider-dots" id="sliderDots" role="tablist" aria-label="Escolher depoimento"></div>
+            <button class="slider-btn" id="nextBtn" aria-label="Próximo depoimento" type="button">&#8594;</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTATO ===== -->
+    <section class="section contato" id="contato">
+      <div class="container grid-contato">
+        <div class="contato-info">
+          <p class="eyebrow reveal">Contato</p>
+          <h2 class="section-title reveal">Agende seu horário</h2>
+          <p class="reveal">Preencha o formulário e confirmamos seu agendamento em até 2 horas úteis pelo WhatsApp ou e-mail.</p>
+          <ul class="info-list reveal">
+            <li>
+              <span class="info-icone" aria-hidden="true">&#9742;</span>
+              <div><strong>Telefone / WhatsApp</strong><a href="tel:+5511999999999">(11) 99999-9999</a></div>
+            </li>
+            <li>
+              <span class="info-icone" aria-hidden="true">&#9993;</span>
+              <div><strong>E-mail</strong><a href="mailto:contato@belladonna.com.br">contato@belladonna.com.br</a></div>
+            </li>
+            <li>
+              <span class="info-icone" aria-hidden="true">&#9873;</span>
+              <div><strong>Endereço</strong><address>Av. Beleza do Sul, 1234 — Jardins, São Paulo/SP</address></div>
+            </li>
+            <li>
+              <span class="info-icone" aria-hidden="true">&#9201;</span>
+              <div><strong>Horário</strong><p>Ter a Sáb: 9h às 20h · Dom: 9h às 14h · Seg: fechado</p></div>
+            </li>
+          </ul>
+        </div>
+
+        <form class="form-agenda reveal" id="formAgenda" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="nome">Nome completo</label>
+              <input type="text" id="nome" name="nome" placeholder="Seu nome" autocomplete="name" required />
+            </div>
+            <div class="form-group">
+              <label for="telefone">WhatsApp</label>
+              <input type="tel" id="telefone" name="telefone" placeholder="(11) 99999-9999" autocomplete="tel" required />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" placeholder="voce@email.com" autocomplete="email" required />
+            </div>
+            <div class="form-group">
+              <label for="servico">Serviço</label>
+              <select id="servico" name="servico" required>
+                <option value="" selected disabled>Selecione...</option>
+                <option value="Cabelo">Cabelo &amp; Visagismo</option>
+                <option value="Unhas">Unhas &amp; Nail Design</option>
+                <option value="Maquiagem">Maquiagem Profissional</option>
+                <option value="Estetica">Estética &amp; Spá</option>
+                <option value="Noivas">Noivas &amp; Eventos</option>
+                <option value="Assinatura">Assinatura Bella</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="data">Data preferida</label>
+              <input type="date" id="data" name="data" required min="2026-08-08" />
+            </div>
+            <div class="form-group">
+              <label for="hora">Horário</label>
+              <select id="hora" name="hora" required>
+                <option value="" selected disabled>Selecione...</option>
+                <option value="09:00">09:00</option><option value="10:00">10:00</option>
+                <option value="11:00">11:00</option><option value="12:00">12:00</option>
+                <option value="14:00">14:00</option><option value="15:00">15:00</option>
+                <option value="16:00">16:00</option><option value="17:00">17:00</option><option value="18:00">18:00</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="mensagem">Mensagem (opcional)</label>
+            <textarea id="mensagem" name="mensagem" rows="3" placeholder="Conte-nos um pouco mais sobre o que você precisa..."></textarea>
+          </div>
+          <p class="form-msg" id="formMsg" role="alert" aria-live="polite"></p>
+          <button type="submit" class="btn btn-primary btn-lg btn-block">Enviar pedido de agendamento</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== RODAPÉ ===== -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#inicio" class="brand brand-light">
+          <span class="brand-mark" aria-hidden="true">B</span>
+          <span class="brand-text">Bella<em>Donna</em></span>
+        </a>
+        <p>Beleza e bem-estar com atendimento exclusivo. O seu momento é o nosso maior compromisso.</p>
+        <div class="social" aria-label="Redes sociais (exemplo)">
+          <a href="#" aria-label="Instagram (exemplo)"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17" cy="7" r="1.3" fill="currentColor" stroke="none"/></svg></a>
+          <a href="#" aria-label="Facebook (exemplo)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8.5h3l.4-3.8H13V2.6c0-1 .3-1.5 1.6-1.5H17V-.6C16.3-.7 15 1 13.5 1 10.6 1 10 2.8 10 5v3.5H7v3.8h3V22h3.5v-9.7h2.8l.4-3.8z"/></svg></a>
+          <a href="#" aria-label="WhatsApp (exemplo)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.2 14.1c-.3.8-1.6 1.5-2.3 1.6-.5.1-1.1.1-1.8-.1-1.9-1-5.9-4.2-6.1-4.4-.2-.2-1.5-2-1.5-3.7s.9-2.7 1.3-3.1c.3-.3.7-.4 1-.4h.7c.2 0 .5-.1.8.6l.9 2.2c.1.2.1.4-.1.6-.1.2-.2.3-.4.5l-.6.6c-.2.2-.3.4-.1.7.2.3.9 1.4 1.9 2.3 1.3 1.2 2.4 1.5 2.7 1.7.3.2.5.1.7-.1l1-1.2c.3-.3.5-.3.8-.2l2 1c.4.2.7.3.8.5 0 .1 0 .8-.4 1.7z"/></svg></a>
+        </div>
+      </div>
+      <nav class="footer-nav" aria-label="Links do rodapé">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#galeria">Galeria</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+      <div class="footer-info">
+        <h4>Horário de atendimento</h4>
+        <p>Ter a Sáb: 9h às 20h<br>Domingo: 9h às 14h<br>Segunda: fechado</p>
+      </div>
+      <div class="footer-news">
+        <h4>Receba novidades</h4>
+        <p>Descontos e tendências direto no seu e-mail.</p>
+        <form id="formNews" class="form-news" novalidate>
+          <label class="visually-hidden" for="newsEmail">Seu e-mail</label>
+          <input type="email" id="newsEmail" placeholder="Seu e-mail" autocomplete="email" required />
+          <button type="submit" class="btn btn-primary btn-sm">Cadastrar</button>
+        </form>
+        <p class="form-msg form-msg-sm" id="newsMsg" role="status" aria-live="polite"></p>
+      </div>
+    </div>
+    <div class="footer-bar">
+      <p>&copy; <span id="ano"></span> Bella Donna — Salão de Beleza. Todos os direitos reservados.</p>
+      <p class="footer-mini">Projeto de portfólio — conteúdo meramente ilustrativo. Fotos: Unsplash.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+  <noscript>
+    <style>
+      .reveal { opacity: 1 !important; transform: none !important; }
+    </style>
+  </noscript>
+</body>
+</html>
