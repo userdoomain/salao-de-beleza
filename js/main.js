@@ -28,7 +28,7 @@
     navMenu.classList.remove("open");
     navToggle.classList.remove("open");
     navToggle.setAttribute("aria-expanded", "false");
-    navToggle.setAttribute("aria-label", "Abrir menu");
+    navToggle.setAttribute("aria-label", "Open menu");
     document.body.style.overflow = "";
   }
 
@@ -37,7 +37,7 @@
       var isOpen = navMenu.classList.toggle("open");
       navToggle.classList.toggle("open", isOpen);
       navToggle.setAttribute("aria-expanded", String(isOpen));
-      navToggle.setAttribute("aria-label", isOpen ? "Fechar menu" : "Abrir menu");
+      navToggle.setAttribute("aria-label", isOpen ? "Close menu" : "Open menu");
       document.body.style.overflow = isOpen ? "hidden" : "";
     });
 
@@ -110,7 +110,7 @@
       var dot = document.createElement("button");
       dot.type = "button";
       dot.className = "dot" + (i === 0 ? " active" : "");
-      dot.setAttribute("aria-label", "Ver depoimento " + (i + 1));
+      dot.setAttribute("aria-label", "View testimonial " + (i + 1));
       dot.addEventListener("click", function () { goTo(i); restart(); });
       dotsWrap.appendChild(dot);
       dots.push(dot);
@@ -221,14 +221,14 @@
       });
 
       if (!allValid) {
-        showMsg(msg, "Preencha corretamente os campos destacados.", "error");
+        showMsg(msg, "Please fill in the highlighted fields correctly.", "error");
         if (firstInvalid) firstInvalid.focus();
         return;
       }
 
       formAgenda.reset();
       msg.className = "form-msg";
-      showMsg(msg, "Pedido enviado! Em breve confirmamos seu horário pelo WhatsApp. Obrigada!", "success");
+      showMsg(msg, "Request sent! We'll confirm your appointment via WhatsApp shortly. Thank you!", "success");
     });
   }
 
@@ -241,12 +241,12 @@
     formNews.addEventListener("submit", function (e) {
       e.preventDefault();
       if (!isEmail(newsInput.value)) {
-        showMsg(newsMsg, "Informe um e-mail válido.", "error");
+        showMsg(newsMsg, "Please enter a valid email.", "error");
         newsInput.focus();
         return;
       }
       newsInput.value = "";
-      showMsg(newsMsg, "Cadastro realizado com sucesso!", "success");
+      showMsg(newsMsg, "Subscription successful!", "success");
     });
   }
 })();
