@@ -1,0 +1,315 @@
+- generic [active] [ref=e1]:
+  - link "Pular para o conteúdo" [ref=e2] [cursor=pointer]:
+    - /url: "#inicio"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Bella Donna — início" [ref=e5] [cursor=pointer]:
+        - /url: "#inicio"
+        - generic [ref=e6]: B
+        - generic [ref=e7]:
+          - text: Bella
+          - emphasis [ref=e8]: Donna
+      - navigation "Navegação principal" [ref=e9]:
+        - list [ref=e10]:
+          - listitem [ref=e11]:
+            - link "Início" [ref=e12] [cursor=pointer]:
+              - /url: "#inicio"
+          - listitem [ref=e13]:
+            - link "Sobre" [ref=e14] [cursor=pointer]:
+              - /url: "#sobre"
+          - listitem [ref=e15]:
+            - link "Serviços" [ref=e16] [cursor=pointer]:
+              - /url: "#servicos"
+          - listitem [ref=e17]:
+            - link "Galeria" [ref=e18] [cursor=pointer]:
+              - /url: "#galeria"
+          - listitem [ref=e19]:
+            - link "Equipe" [ref=e20] [cursor=pointer]:
+              - /url: "#equipe"
+          - listitem [ref=e21]:
+            - link "Depoimentos" [ref=e22] [cursor=pointer]:
+              - /url: "#depoimentos"
+          - listitem [ref=e23]:
+            - link "Contato" [ref=e24] [cursor=pointer]:
+              - /url: "#contato"
+      - link "Agendar horário" [ref=e25] [cursor=pointer]:
+        - /url: "#contato"
+  - main [ref=e26]:
+    - generic [ref=e28]:
+      - paragraph [ref=e29]: Cabelo · Unhas · Estética · Maquiagem
+      - heading [level=1] [ref=e30]:
+        - text: Beleza que se
+        - emphasis [ref=e31]: cuida por dentro
+      - paragraph [ref=e32]: Há mais de 12 anos realçando a beleza de centenas de clientes com atendimento exclusivo, produtos premium e uma equipe apaixonada pelo que faz.
+      - generic [ref=e33]:
+        - link "Agendar horário" [ref=e34] [cursor=pointer]:
+          - /url: "#contato"
+        - link "Ver serviços" [ref=e35] [cursor=pointer]:
+          - /url: "#servicos"
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - term [ref=e38]: "+12"
+          - definition [ref=e39]: anos de experiência
+        - generic [ref=e40]:
+          - term [ref=e41]: +8 mil
+          - definition [ref=e42]: clientes atendidas
+        - generic [ref=e43]:
+          - term [ref=e44]: 4,9
+          - definition [ref=e45]: avaliação média
+    - generic [ref=e47]:
+      - generic [ref=e48]:
+        - img "Interior do salão" [ref=e49]
+        - img "Cuidado com os cabelos" [ref=e59]
+        - generic [ref=e64]:
+          - strong [ref=e65]: "12"
+          - generic [ref=e66]: anos debeleza
+      - generic [ref=e68]:
+        - paragraph [ref=e69]: Sobre nós
+        - heading "Um espaço feito para o seu bem-estar" [level=2] [ref=e70]: Um espaço feito parao seu bem-estar
+        - paragraph [ref=e71]: A Bella Donna nasceu do sonho de transformar o momento da beleza em uma experiência de autocuidado e relaxamento. Nossa equipe é formada por profissionais certificados, sempre atualizados com as tendências e técnicas mais modernas do mercado.
+        - list [ref=e72]:
+          - listitem [ref=e73]: ✓ Atendimento personalizado com agendamento online
+          - listitem [ref=e74]: ✓ Produtos premium, veganos e cruelty-free
+          - listitem [ref=e75]: ✓ Ambiente acolhedor pensado no seu conforto
+          - listitem [ref=e76]: ✓ Higienização rigorosa de todos os materiais
+        - link "Conheça nossa equipe" [ref=e77] [cursor=pointer]:
+          - /url: "#equipe"
+    - generic [ref=e79]:
+      - generic [ref=e80]:
+        - paragraph [ref=e81]: Nossos serviços
+        - heading "Cuidados completos para você" [level=2] [ref=e82]
+        - paragraph [ref=e83]: Escolha o serviço ideal. Todos incluem avaliação gratuita e orientação de manutenção.
+      - generic [ref=e84]:
+        - article [ref=e85]:
+          - heading "Cabelo & Visagismo" [level=3] [ref=e90]
+          - paragraph [ref=e91]: Cortes, coloração, balayage, hidratação profunda e reconstrução que transformam os seus fios.
+          - paragraph [ref=e92]:
+            - text: a partir de
+            - strong [ref=e93]: R$ 60
+        - article [ref=e94]:
+          - heading "Unhas & Nail Design" [level=3] [ref=e99]
+          - paragraph [ref=e100]: Manicure, pedicure, alongamento, esmaltação em gel e nail art com alta durabilidade.
+          - paragraph [ref=e101]:
+            - text: a partir de
+            - strong [ref=e102]: R$ 45
+        - article [ref=e103]:
+          - heading "Maquiagem Profissional" [level=3] [ref=e107]
+          - paragraph [ref=e108]: Maquiagem social, festa, noivas e automaquiagem, com preparação de pele e sobrancelha.
+          - paragraph [ref=e109]:
+            - text: a partir de
+            - strong [ref=e110]: R$ 120
+        - article [ref=e111]:
+          - heading "Estética & Spá" [level=3] [ref=e116]
+          - paragraph [ref=e117]: Limpeza de pele, massagem relaxante, design de sobrancelhas e procedimentos dermoestéticos.
+          - paragraph [ref=e118]:
+            - text: a partir de
+            - strong [ref=e119]: R$ 90
+        - article [ref=e120]:
+          - heading "Noivas & Eventos" [level=3] [ref=e125]
+          - paragraph [ref=e126]: "Pacotes completos para noivas, madrinhas e eventos: prova, produção no salão ou no local."
+          - paragraph [ref=e127]:
+            - text: a partir de
+            - strong [ref=e128]: R$ 350
+        - article [ref=e129]:
+          - heading "Assinatura Bella" [level=3] [ref=e133]
+          - paragraph [ref=e134]: Plano mensal com cortes, hidratação, esmaltação e prioridade no agendamento — 20% de desconto.
+          - paragraph [ref=e135]:
+            - text: por mês
+            - strong [ref=e136]: R$ 199
+          - generic [ref=e137]: Mais pedido
+    - generic [ref=e138]:
+      - generic [ref=e140]:
+        - paragraph [ref=e141]: Galeria
+        - heading "Resultados que falam por si" [level=2] [ref=e142]
+      - generic [ref=e143]:
+        - figure "Balayage noiva" [ref=e144]:
+          - img "Balayage para noiva" [ref=e145]
+        - figure "Gel rosé" [ref=e147]:
+          - img "Esmaltação em gel rosé" [ref=e148]
+        - figure "Corte em camadas" [ref=e150]:
+          - img "Corte em camadas" [ref=e151]
+        - figure "Make de festa" [ref=e153]:
+          - img "Maquiagem para festa" [ref=e154]
+        - figure "Spa relaxante" [ref=e156]:
+          - img "Tratamento de spa" [ref=e157]
+        - figure "Design de sobrancelhas" [ref=e159]:
+          - img "Design de sobrancelhas" [ref=e160]
+    - generic [ref=e163]:
+      - generic [ref=e164]:
+        - paragraph [ref=e165]: Nossa equipe
+        - heading "Profissionais que você vai amar" [level=2] [ref=e166]
+      - generic [ref=e167]:
+        - article [ref=e168]:
+          - img "Retrato de Ana Beatriz" [ref=e169]
+          - heading "Ana Beatriz" [level=3] [ref=e175]
+          - paragraph [ref=e176]: Cabelereira & Visagista
+          - paragraph [ref=e177]: Especialista em coloração e reconstrução capilar. 10 anos de salão.
+        - article [ref=e178]:
+          - img "Retrato de Carla Mendes" [ref=e179]
+          - heading "Carla Mendes" [level=3] [ref=e185]
+          - paragraph [ref=e186]: Nail Designer
+          - paragraph [ref=e187]: Alongamento, gel e nail art. Perfeccionista e apaixonada por detalhes.
+        - article [ref=e188]:
+          - img "Retrato de Juliana Prado" [ref=e189]
+          - heading "Juliana Prado" [level=3] [ref=e196]
+          - paragraph [ref=e197]: Maquiadora & Sobrancelhista
+          - paragraph [ref=e198]: Maquiagem para todos os momentos e harmonização da sua expressão.
+    - generic [ref=e200]:
+      - generic [ref=e201]:
+        - paragraph [ref=e202]: Depoimentos
+        - heading "Quem já viveu a experiência" [level=2] [ref=e203]
+      - generic "Depoimentos de clientes" [ref=e204]:
+        - generic [ref=e205]:
+          - figure [ref=e206]:
+            - blockquote [ref=e207]: "\"Meu cabelo nunca esteve tão saudável. A Ana transformou a minha balayage e o atendimento é impecável do início ao fim!\""
+            - generic [ref=e208]:
+              - strong [ref=e209]: Mariana Souza
+              - text: Cliente desde 2019
+          - figure [ref=e210]:
+            - blockquote [ref=e211]: "\"A assinatura vale muito a pena. Sempre saio renovada e ainda economizo em todos os meus cuidados.\""
+            - generic [ref=e212]:
+              - strong [ref=e213]: Patrícia Almeida
+              - text: Assinante Bella
+          - figure [ref=e214]:
+            - blockquote [ref=e215]: "\"Fiz um pacote para o casamento da minha irmã e ficou tudo maravilhoso. Equipe atenciosa, pontual e super profissional.\""
+            - generic [ref=e216]:
+              - strong [ref=e217]: Fernanda Lima
+              - text: Pacote Noivas
+          - figure [ref=e218]:
+            - blockquote [ref=e219]: "\"Ambiente lindo, produtos de ótima qualidade e atendimento que faz toda a diferença. Virei cliente mensal!\""
+            - generic [ref=e220]:
+              - strong [ref=e221]: Luana Ribeiro
+              - text: Cliente desde 2021
+        - generic [ref=e222]:
+          - button "Depoimento anterior" [ref=e223] [cursor=pointer]: ←
+          - tablist "Escolher depoimento" [ref=e224]:
+            - button "Ver depoimento 1" [ref=e225] [cursor=pointer]
+            - button "Ver depoimento 2" [ref=e226] [cursor=pointer]
+            - button "Ver depoimento 3" [ref=e227] [cursor=pointer]
+            - button "Ver depoimento 4" [ref=e228] [cursor=pointer]
+          - button "Próximo depoimento" [ref=e229] [cursor=pointer]: →
+    - generic [ref=e231]:
+      - generic [ref=e232]:
+        - paragraph [ref=e233]: Contato
+        - heading "Agende seu horário" [level=2] [ref=e234]
+        - paragraph [ref=e235]: Preencha o formulário e confirmamos seu agendamento em até 2 horas úteis pelo WhatsApp ou e-mail.
+        - list [ref=e236]:
+          - listitem [ref=e237]:
+            - generic [ref=e238]: ☎
+            - generic [ref=e239]:
+              - strong [ref=e240]: Telefone / WhatsApp
+              - link "(11) 99999-9999" [ref=e241] [cursor=pointer]:
+                - /url: tel:+5511999999999
+          - listitem [ref=e242]:
+            - generic [ref=e243]: ✉
+            - generic [ref=e244]:
+              - strong [ref=e245]: E-mail
+              - link "contato@belladonna.com.br" [ref=e246] [cursor=pointer]:
+                - /url: mailto:contato@belladonna.com.br
+          - listitem [ref=e247]:
+            - generic [ref=e248]: ⚑
+            - generic [ref=e249]:
+              - strong [ref=e250]: Endereço
+              - generic [ref=e251]: Av. Beleza do Sul, 1234 — Jardins, São Paulo/SP
+          - listitem [ref=e252]:
+            - generic [ref=e253]: ⏱
+            - generic [ref=e254]:
+              - strong [ref=e255]: Horário
+              - paragraph [ref=e256]: "Ter a Sáb: 9h às 20h · Dom: 9h às 14h · Seg: fechado"
+      - generic [ref=e257]:
+        - generic [ref=e258]:
+          - generic [ref=e259]:
+            - generic [ref=e260]: Nome completo
+            - textbox "Nome completo" [ref=e261]:
+              - /placeholder: Seu nome
+          - generic [ref=e262]:
+            - generic [ref=e263]: WhatsApp
+            - textbox "WhatsApp" [ref=e264]:
+              - /placeholder: (11) 99999-9999
+        - generic [ref=e265]:
+          - generic [ref=e266]:
+            - generic [ref=e267]: E-mail
+            - textbox "E-mail" [ref=e268]:
+              - /placeholder: voce@email.com
+          - generic [ref=e269]:
+            - generic [ref=e270]: Serviço
+            - combobox "Serviço" [ref=e271]:
+              - option "Selecione..." [disabled] [selected]
+              - option "Cabelo & Visagismo"
+              - option "Unhas & Nail Design"
+              - option "Maquiagem Profissional"
+              - option "Estética & Spá"
+              - option "Noivas & Eventos"
+              - option "Assinatura Bella"
+        - generic [ref=e272]:
+          - generic [ref=e273]:
+            - generic [ref=e274]: Data preferida
+            - textbox "Data preferida" [ref=e275]
+          - generic [ref=e276]:
+            - generic [ref=e277]: Horário
+            - combobox "Horário" [ref=e278]:
+              - option "Selecione..." [disabled] [selected]
+              - option "09:00"
+              - option "10:00"
+              - option "11:00"
+              - option "12:00"
+              - option "14:00"
+              - option "15:00"
+              - option "16:00"
+              - option "17:00"
+              - option "18:00"
+        - generic [ref=e279]:
+          - generic [ref=e280]: Mensagem (opcional)
+          - textbox "Mensagem (opcional)" [ref=e281]:
+            - /placeholder: Conte-nos um pouco mais sobre o que você precisa...
+        - alert [ref=e282]
+        - button "Enviar pedido de agendamento" [ref=e283] [cursor=pointer]
+  - contentinfo [ref=e284]:
+    - generic [ref=e285]:
+      - generic [ref=e286]:
+        - link [ref=e287] [cursor=pointer]:
+          - /url: "#inicio"
+          - generic [ref=e288]: B
+          - generic [ref=e289]:
+            - text: Bella
+            - emphasis [ref=e290]: Donna
+        - paragraph [ref=e291]: Beleza e bem-estar com atendimento exclusivo. O seu momento é o nosso maior compromisso.
+        - generic "Redes sociais (exemplo)" [ref=e292]:
+          - link "Instagram (exemplo)" [ref=e293] [cursor=pointer]:
+            - /url: "#"
+          - link "Facebook (exemplo)" [ref=e298] [cursor=pointer]:
+            - /url: "#"
+          - link "WhatsApp (exemplo)" [ref=e301] [cursor=pointer]:
+            - /url: "#"
+      - navigation "Links do rodapé" [ref=e304]:
+        - heading "Navegação" [level=4] [ref=e305]
+        - list [ref=e306]:
+          - listitem [ref=e307]:
+            - link "Início" [ref=e308] [cursor=pointer]:
+              - /url: "#inicio"
+          - listitem [ref=e309]:
+            - link "Sobre" [ref=e310] [cursor=pointer]:
+              - /url: "#sobre"
+          - listitem [ref=e311]:
+            - link "Serviços" [ref=e312] [cursor=pointer]:
+              - /url: "#servicos"
+          - listitem [ref=e313]:
+            - link "Galeria" [ref=e314] [cursor=pointer]:
+              - /url: "#galeria"
+          - listitem [ref=e315]:
+            - link "Contato" [ref=e316] [cursor=pointer]:
+              - /url: "#contato"
+      - generic [ref=e317]:
+        - heading "Horário de atendimento" [level=4] [ref=e318]
+        - paragraph [ref=e319]: "Ter a Sáb: 9h às 20hDomingo: 9h às 14hSegunda: fechado"
+      - generic [ref=e320]:
+        - heading "Receba novidades" [level=4] [ref=e321]
+        - paragraph [ref=e322]: Descontos e tendências direto no seu e-mail.
+        - generic [ref=e323]:
+          - generic [ref=e324]: Seu e-mail
+          - textbox "Seu e-mail" [ref=e325]
+          - button "Cadastrar" [ref=e326] [cursor=pointer]
+        - status
+    - generic [ref=e327]:
+      - paragraph [ref=e328]: © 2026 Bella Donna — Salão de Beleza. Todos os direitos reservados.
+      - paragraph [ref=e329]: Projeto de portfólio — conteúdo meramente ilustrativo.
